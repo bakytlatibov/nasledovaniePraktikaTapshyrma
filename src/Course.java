@@ -1,12 +1,13 @@
-public class CourseID {
+public class Course {
+    public int Id;
     private String nameTeacher;
     private String nameStudent;
 
-    public CourseID(String nameTeacher, String nameStudent) {
+    public Course(String nameTeacher, String nameStudent) {
         this.nameTeacher = nameTeacher;
         this.nameStudent = nameStudent;
     }
-     public CourseID(){
+     public Course(){
 
      }
     public String getNameTeacher() {
