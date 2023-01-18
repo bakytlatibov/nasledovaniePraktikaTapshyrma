@@ -10,6 +10,15 @@ public class Course {
      public Course(){
 
      }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
+    }
+
     public String getNameTeacher() {
         return nameTeacher;
     }
